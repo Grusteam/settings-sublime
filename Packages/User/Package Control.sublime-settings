@@ -29,8 +29,6 @@
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-eslint",
-		"SublimeLinter-jshint",
-		"SublimeLinter-stylelint",
 		"Syntax Highlighting for PostCSS",
 		"Trimmer"
 	]
