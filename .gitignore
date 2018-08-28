@@ -1,9 +1,10 @@
 Backup/
-Installed Packages/
+Installed Packages/*
 Lib/
 Local/
 Packages/*
 !Packages/User
+!Installed Packages/Package Control.sublime-package
 
 Packages/User/Package Control.last-run
 Packages/User/Package Control.ca-list

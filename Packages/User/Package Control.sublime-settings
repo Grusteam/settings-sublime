@@ -2,6 +2,7 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"Abacus"
 	],
 	"installed_packages":
 	[
@@ -25,6 +26,7 @@
 		"Seti_UI",
 		"Seti_UX",
 		"SFTP",
+		"Shader Syntax (GLSL HLSL Cg)",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeLinter",
