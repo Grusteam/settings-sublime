@@ -1,0 +1,7 @@
+{
+	"permanent_highlight_keyword_color_mappings": [
+		{"keyword": "TODO:", "color": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.key.json string.quoted.double.json"},
+		{"keyword": "FIXME:", "color": "source.js meta.class.js meta.group.braces.curly.js invalid.illegal.numeric.octal.js", "flag": 2},
+		{"keyword": "WARN:", "color": "source.js meta.class.js meta.group.braces.curly.js storage.type.js", "flag": 0},
+	]
+}
