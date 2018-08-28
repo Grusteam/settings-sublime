@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:array}.map((item, i) => {
+	return (
+		<Item
+			data={item.data}
+			key={i}
+		/>
+	);
+})
+]]></content>
+    <tabTrigger>map</tabTrigger>
+    <scope>source.js</scope>
+    <description>JS Native map function</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+setInterval(function(${1:arg}) {
+	${2:code}
+}, 50);
+]]></content>
+    <tabTrigger>sti</tabTrigger>
+    <scope>source.js</scope>
+    <description>Set Interval</description>
+</snippet>

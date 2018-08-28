@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+Object.keys(${1:object}).map((key, i) => {
+	const
+		value = ${1:object}[key];
+	return (
+		value
+	);
+});
+]]></content>
+    <tabTrigger>keys</tabTrigger>
+    <scope>source.js</scope>
+    <description>Object keys map</description>
+</snippet>

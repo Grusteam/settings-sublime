@@ -1,0 +1,36 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Abacus",
+		"Alignment",
+		"Babel",
+		"Babel Snippets",
+		"CSS Snippets",
+		"Emmet",
+		"Emmet Css Snippets",
+		"ES6-Toolkit",
+		"Increment Selection",
+		"JavaScript Patterns",
+		"JavaScriptNext - ES6 Syntax",
+		"LESS",
+		"Oceanic Next Color Scheme",
+		"OpenGL Shading Language (GLSL)",
+		"Package Control",
+		"Sass",
+		"Seti_UI",
+		"Seti_UX",
+		"SFTP",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-eslint",
+		"SublimeLinter-jshint",
+		"SublimeLinter-stylelint",
+		"Syntax Highlighting for PostCSS",
+		"Trimmer"
+	]
+}

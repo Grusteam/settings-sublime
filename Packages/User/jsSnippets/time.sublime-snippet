@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+console.time('${1:name}');
+console.timeEnd('${1:name}');
+]]></content>
+    <tabTrigger>time</tabTrigger>
+    <scope>source.js</scope>
+    <description>Time tracker</description>
+</snippet>

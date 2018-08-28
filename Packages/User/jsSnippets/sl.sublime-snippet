@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+(item) => item
+]]></content>
+    <tabTrigger>sl</tabTrigger>
+    <scope>source.js</scope>
+    <description>Stateless function</description>
+</snippet>

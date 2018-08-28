@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+// Full height slider
+.bx-wrapper {
+	height: 100%;
+	margin-bottom: 0;
+
+	.bx-viewport {
+		left: 0;
+		height: 100% !important;
+		box-shadow: none;
+		border: none;
+		
+		> * { // Element with slider class
+			height: 100%;
+			
+			li {
+				height: 100%;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+		}
+	}
+}
+]]></content>
+	<tabTrigger>bx-fh</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

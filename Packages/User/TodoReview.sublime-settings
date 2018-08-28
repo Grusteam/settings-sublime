@@ -1,0 +1,22 @@
+{
+	"exclude_folders": [
+		"*.git*",
+		"*node_modules*",
+		"*build*",
+		"*docs*",
+		"*public*",
+		"*test*"
+	],
+	"patterns": {
+		"TODO": "TODO[\\s]*?:[\\s]*(?P<todo>.*)$",
+		"FIXME": "FIXME[\\s]*?:[\\s]*(?P<fixme>.*)$",
+		"REWORK": "REWORK[\\s]*?:[\\s]*(?P<rework>.*)$",
+		"WARN": "WARN[\\s]*?:[\\s]*(?P<rework>.*)$"
+	},
+	"patterns_weight": {
+		"TODO": 1,
+		"FIXME": 2,
+		"REWORK": 3,
+		"WARN": 1
+	},
+}

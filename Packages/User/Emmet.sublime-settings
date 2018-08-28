@@ -1,0 +1,39 @@
+{
+    // "use_old_tab_handler": false,
+    // Custom snippets definitions, as per https://github.com/emmetio/emmet/blob/master/snippets.json
+    "preferences": {
+        "css.autoInsertVendorPrefixes": false
+    },
+    "snippets": {
+        "css": {
+            "snippets": {
+                "bg+": "background:#${1:fff} url(../images/${2}) ${3:0} ${4:0} ${5:no-repeat};",
+                "ff+": "font-family: | Arial, Helvetica, sans-serif;",
+                "post": "position: absolute; \ntop: 0; \nleft: 0; \nz-index: 1;",
+                "aft": "posa+t${1:0}+l${2:0}+z20+w${3:0}+h${4:0}+cnt+bg+${5}",
+                "df": "display: flex;",
+                "fxs": "flex-shrink: ${1:0};",
+                "fxd": "flex-direction: ${1:row};",
+                "bgpc": "background-position: center;",
+                "trns": "transform: ${1:rotate(90deg)} ${2:translate(0px, 0px)};",
+                "poen": "pointer-events: none;",
+                "poea": "pointer-events: auto;"
+            }
+        },
+        "html": {
+            "abbreviations": {
+                "cnt": ".container>.row>.col-xs-12",
+                "r": ".row>.col-xs-12",
+                "img": "<img src='images/|' alt=''/>",
+                "imgc": "<img src='content/|' alt=''/>",
+                "btn": "<button type='button'></button>",
+                "int": "<input type='text' name='' id='' />",
+                "txt": "<textarea name='' id='' cols='30' rows='5'></textarea>",
+                "a": "<a href='#'>|</a>",
+                "t": "table.table>thead>tr>th*2^^tbody>tr*2>td*2",
+                "socials": "ul>li.vk>a^li.tw>a^li.fb>a^li.in>a",
+                "ff": "form>(label+input:t)*2+label+textarea+btn:s"
+            }
+        }
+    }
+}

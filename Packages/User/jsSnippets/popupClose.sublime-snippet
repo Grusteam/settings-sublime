@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+\$(document).on("click", function(e) {
+	var popup = ".js-context-popup-target";
+	!\$(e.target).closest(popup).length && \$(popup).fadeOut();
+});
+]]></content>
+    <tabTrigger>ppc</tabTrigger>
+    <scope>source.js</scope>
+    <description>Close popup</description>
+</snippet>

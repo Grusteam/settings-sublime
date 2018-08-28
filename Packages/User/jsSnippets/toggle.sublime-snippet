@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+function toggle(id) {
+	if (!this.value) this.value = {};
+	return this.value[id] = !this.value[id];
+}
+]]></content>
+    <tabTrigger>tgl</tabTrigger>
+    <scope>source.js</scope>
+    <description>Toggle function</description>
+</snippet>

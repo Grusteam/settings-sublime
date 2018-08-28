@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:array}.forEach((item, i, arr) => {
+
+	return item;
+});
+]]></content>
+    <tabTrigger>each</tabTrigger>
+    <scope>source.js</scope>
+    <description>Native forEach loop</description>
+</snippet>

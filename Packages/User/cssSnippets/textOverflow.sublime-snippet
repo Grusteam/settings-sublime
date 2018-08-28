@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+]]></content>
+    <tabTrigger>fto</tabTrigger>
+    <scope>source.css, source.less</scope>
+    <description>Full text overflow</description>
+</snippet>

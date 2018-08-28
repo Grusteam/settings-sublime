@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+]]></content>
+    <tabTrigger>rand</tabTrigger>
+    <scope>source.js</scope>
+    <description>Random function</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+\$(".selector").on("click", function() {
+    console.log("{x:" + event.offsetX + ", " + "y:" + event.offsetY + "},")
+});
+]]></content>
+    <tabTrigger>maper</tabTrigger>
+    <scope>source.js</scope>
+    <description>Click map</description>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+.hidden {
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s .3s ease, opacity .3s ease;
+}
+.visible {
+	visibility: visible;
+	opacity: 1;
+	transition: opacity .3s ease;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fade</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.less, source.css</scope>
+	<description>Fade In Out with CSS3</description>
+</snippet>

@@ -1,0 +1,54 @@
+<snippet>
+    <content><![CDATA[
+export default class ${1:ClassName} extends Component {
+	static propTypes = {
+		children: PropTypes.element
+	};
+	
+	static defaultProps = {};
+
+	constructor(props) {
+		super(props);
+		this.state = {};
+	}
+	
+	componentWillMount() {
+		
+	}
+
+	componentDidMount() {
+
+	}
+	
+	componentWillReceiveProps(nextProps) {
+		
+	}
+	
+	shouldComponentUpdate(nextProps, nextState) {
+		return true;
+	}
+	
+	componentWillUpdate(nextProps, nextState) {
+		
+	}
+	
+	componentDidUpdate(prevProps, prevState) {
+		
+	}
+	
+	componentWillUnmount() {
+		
+	}
+
+	render() {
+		return (
+			<div>
+			</div>
+		);
+	}
+}
+]]></content>
+    <tabTrigger>class</tabTrigger>
+    <scope>source.js</scope>
+    <description>Plain Class</description>
+</snippet>

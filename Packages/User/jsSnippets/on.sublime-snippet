@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+\$(${1:selector}).on('${2:click}', function(${3:event}) {
+    ${4:console.log(event);}
+});
+]]></content>
+    <tabTrigger>on</tabTrigger>
+    <scope>source.js</scope>
+    <description>Event handler</description>
+</snippet>

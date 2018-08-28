@@ -1,0 +1,78 @@
+{
+	"auto_complete_delay": 400,
+	"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip",
+		"/D/Projects/SimpleCode/Site/slcode.com/bower_components/**",
+		"node_modules/**"
+	],
+	"color_scheme": "Packages/User/ISOtheme.tmTheme",
+	"copy_with_empty_selection": false,
+	"default_line_ending": "unix",
+	"drag_text": false,
+	"draw_white_space": "selection",
+	"extract_sublime_package_ask_on_open": true,
+	"fallback_encoding": "Cyrillic (Windows 1251)",
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace",
+		"._*"
+	],
+	"font_options":
+	[
+		"no_round"
+	],
+	"font_size": 11,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"CSS Snippets",
+		"JavaScript Patterns",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal"
+	],
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+	"open_files_in_new_window": false,
+	"shift_tab_unindent": true,
+	"show_css_completions": false,
+	"show_encoding": true,
+	"tab_completion": false,
+	"theme": "Seti.sublime-theme",
+	"trim_automatic_white_space": false,
+	"trim_trailing_white_space_on_save": false
+}

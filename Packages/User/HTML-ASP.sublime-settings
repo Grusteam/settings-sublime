@@ -1,0 +1,9 @@
+{
+	"extensions":
+	[
+		"aspx",
+		"ascx",
+		"cshtml",
+		"Master"
+	]
+}

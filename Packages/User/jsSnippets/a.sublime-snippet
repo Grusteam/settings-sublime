@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+arguments
+]]></content>
+    <tabTrigger>a</tabTrigger>
+    <scope>source.js</scope>
+    <description>Arguments list</description>
+</snippet>

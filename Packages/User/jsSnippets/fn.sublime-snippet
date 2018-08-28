@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+var ${1:name} = function(${2:arguments}) {
+    ${3:body}
+};
+]]></content>
+    <tabTrigger>fn</tabTrigger>
+    <scope>source.js</scope>
+    <description>Function var</description>
+</snippet>

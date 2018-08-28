@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+@media (min-width: 768px) {
+    // 768 and bigger
+
+}
+]]></content>
+    <tabTrigger>mqs</tabTrigger>
+    <scope>source.css, source.less</scope>
+    <description>Media queries bigger</description>
+</snippet>

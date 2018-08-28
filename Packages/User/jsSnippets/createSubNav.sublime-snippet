@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+function createSubNav() {
+    var links = [
+        "about",
+        "index",
+        "contacts",
+        "event",
+        "faq",
+        "partners",
+        "registration"
+    ],
+    styleList = "position: relative; top: 0; left: 0; width: 100%; z-index: 10000; background-color: #fff;",
+    styleLink = "display: inline-block; margin-left: 10px; padding: 5px;";
+    
+
+    var list = [];
+
+    for (var i = 0; i < links.length; i++) {
+        list.push("<a href='/47hours_layout/" + links[i] + ".html' style='" + styleLink + "'>" + links[i] + "</a>");
+    }
+
+    list.join(" ");
+    $("body").prepend("<div id='list' style='" + styleList + "'></div>");
+    $("#list").append(list);
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

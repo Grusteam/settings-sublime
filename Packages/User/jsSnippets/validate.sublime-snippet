@@ -1,0 +1,31 @@
+<snippet>
+    <content><![CDATA[
+\$(".${1:selector}").validate({
+	rules: {
+		feedbackEmail: {
+			required: true,
+			email: true
+		}
+	},
+
+	messages: {
+		feedbackEmail: ''
+	},
+
+	highlight: function(element, errorClass, validClass) {
+		\$(element).parent().addClass('error-container').removeClass('valid-container');
+	},
+
+	unhighlight: function(element, errorClass, validClass) {
+		\$(element).parent().removeClass('error-container').addClass('valid-container');
+	},
+
+	submitHandler: function(form) {
+
+	}
+});
+]]></content>
+    <tabTrigger>val</tabTrigger>
+    <scope>source.js</scope>
+    <description>Validate snippet</description>
+</snippet>

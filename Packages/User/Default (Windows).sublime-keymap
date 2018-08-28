@@ -1,0 +1,83 @@
+[
+    { "keys": ["ctrl+tab"], "command": "next_view" },
+    { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+
+    // Alt hotkeys
+    { "keys": ["alt+v"], "args": {"action": "evaluate_math_expression"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.evaluate_math_expression"}]},
+    { "keys": ["alt+w"], "command": "wrap_as_you_type", "context": [{"operand": false, "operator": "equal", "match_all": true, "key": "setting.is_widget"}, {"match_all": true, "key": "emmet_action_enabled.wrap_as_you_type"} ] },
+    { "keys": ["alt+n"], "command": "increment_selection" },
+    { "keys": ["alt+c"], "command": "insert_snippet", "args": {"name": "Packages/User/jsSnippets/console.sublime-snippet"} },
+    { "keys": ["alt+z"], "command": "expand_selection", "args": {"to": "indentation"} },
+    { "keys": ["alt+x"], "command": "expand_selection", "args": {"to": "brackets"} },
+
+    { "keys": ["ctrl+j"], "command": "join_lines" },
+
+    { "keys": ["alt+up"], "command": "swap_line_up" },
+    { "keys": ["alt+down"], "command": "swap_line_down" },
+
+    { "keys": ["ctrl+shift+up"], "args": {"action": "increment_number_by_1"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.increment_number_by_1"}]},
+    { "keys": ["ctrl+shift+down"], "args": {"action": "decrement_number_by_1"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.decrement_number_by_1"}]},
+
+    { "keys": ["ctrl+shift+alt+up"], "args": {"action": "increment_number_by_10"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.increment_number_by_10"}]},
+    { "keys": ["ctrl+shift+alt+down"], "args": {"action": "decrement_number_by_10"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.decrement_number_by_10"}]},
+
+    { "keys": ["ctrl+alt+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+
+    { "keys": ["ctrl+shift+t"], "command": "reopen_last_file" },
+    { "keys": ["ctrl+left"], "command": "move", "args": {"by": "subwords", "forward": false} },
+    { "keys": ["ctrl+right"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+    { "keys": ["ctrl+shift+left"], "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
+    { "keys": ["ctrl+shift+right"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
+
+    { "keys": ["alt+left"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+    { "keys": ["alt+right"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+    { "keys": ["alt+shift+left"], "command": "move_to", "args": {"to": "bol", "extend": true} },
+    { "keys": ["alt+shift+right"], "command": "move_to", "args": {"to": "eol", "extend": true} },
+
+    { "keys": ["ctrl+alt+up"], "command": "duplicate_line" },
+    { "keys": ["ctrl+alt+down"], "command": "duplicate_line" },
+    { "keys": ["ctrl+shift+d"], "command": "find_under_expand" },
+    { "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
+    { "keys": ["ctrl+alt+w"], "command": "close_window" },
+    { "keys": ["ctrl+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["ctrl+down"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["ctrl+keypad_plus"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+    { "keys": ["f12"], "command": "toggle_distraction_free" },
+
+    { "keys": ["ctrl+g"], "command": "goto_definition" },
+    { "keys": ["ctrl+b"], "command": "toggle_side_bar" },
+
+    { "keys": ["shift+space"], "command": "insert_snippet", "args": {"name": "Packages/User/nbsp.sublime-snippet"} },
+    { "keys": ["ctrl+u"], "args": {"action": "update_image_size"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.update_image_size"} ] },
+    { "keys": ["ctrl+;"], "command": "rename_tag", "context": [{"key": "emmet_action_enabled.rename_tag"} ] },
+    { "keys": ["ctrl+'"], "args": {"action": "remove_tag"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.remove_tag"} ] },
+    // { "keys": ["ctrl+shift+a"], "args": {"action": "match_pair_outward"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.match_pair_outward"} ] },
+    { "keys": ["ctrl+shift+a"], "args": {"action": "balance_outward"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.balance_outward"} ] },
+    { "keys": ["ctrl+shift+alt+a"], "command": "expand_selection", "args": {"to": "brackets"}, "context": "" },
+    { "keys": ["ctrl+alt+right"], "args": {"action": "select_next_item"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.select_next_item"} ] },
+    { "keys": ["ctrl+alt+left"], "args": {"action": "select_previous_item"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.select_previous_item"} ] },
+    { "keys": ["ctrl+shift+w"], "command": "expand_selection", "args": {"to": "word"} },
+    {
+        "keys": [
+            "ctrl+alt+e"
+        ],
+        "args": {
+            "action": "encode_decode_data_url"
+        },
+        "command": "run_emmet_action",
+        "context": [
+            {
+                "key": "emmet_action_enabled.encode_decode_data_url"
+            }
+        ]
+    }
+    /*{ "keys": ["tab"], "command": "expand_abbreviation_by_tab", "context":
+        [
+            { "operand": "source.js", "operator": "equal", "match_all": true, "key": "selector" },
+            { "match_all": true, "key": "selection_empty" },
+            { "operator": "equal", "operand": false, "match_all": true, "key": "has_next_field" },
+            { "operand": false, "operator": "equal", "match_all": true, "key": "auto_complete_visible" },
+            { "match_all": true, "key": "is_abbreviation" }
+        ]
+    }*/
+]

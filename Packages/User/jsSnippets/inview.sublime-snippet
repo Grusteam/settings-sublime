@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+var inView = function(target) {
+    return (\$(window).height() + \$(document).scrollTop()) >= \$(target).offset().top;
+};
+]]></content>
+    <tabTrigger>inv</tabTrigger>
+    <scope>source.js</scope>
+    <description>Inview function</description>
+</snippet>

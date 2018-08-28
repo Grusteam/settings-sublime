@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+&:nth-of-type(${1:n+2}) {
+	${2}
+}
+]]></content>
+	<tabTrigger>nth</tabTrigger>
+	<scope>source.less, source.css</scope>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>
