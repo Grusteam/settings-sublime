@@ -2,11 +2,9 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"Abacus"
 	],
 	"installed_packages":
 	[
-		"Abacus",
 		"Alignment",
 		"Babel",
 		"Babel Snippets",
