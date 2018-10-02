@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
 <div class="row">
-	<div class="col-xs-12"></div>
+	<div class="col-12"></div>
 </div>
 ]]></content>
     <tabTrigger>r</tabTrigger>
-    <scope>source.html, source.js</scope>
+    <scope>source.html.basic, text.html.basic</scope>
     <description>Simple row</description>
 </snippet>

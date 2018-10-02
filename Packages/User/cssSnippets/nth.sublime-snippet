@@ -5,7 +5,7 @@
 }
 ]]></content>
 	<tabTrigger>nth</tabTrigger>
-	<scope>source.less, source.css</scope>
+	<scope>source.less, source.css, source.css.less</scope>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 </snippet>
