@@ -18,7 +18,7 @@
 		"/D/Projects/SimpleCode/Site/slcode.com/bower_components/**",
 		"node_modules/**"
 	],
-	"color_scheme": "Packages/User/ISOtheme.tmTheme",
+	"color_scheme": "Packages/Oceanic Next Italic Color Scheme/Oceanic Next Italic.tmTheme",
 	"copy_with_empty_selection": false,
 	"default_line_ending": "unix",
 	"drag_text": false,

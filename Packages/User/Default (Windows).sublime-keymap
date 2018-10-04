@@ -1,6 +1,14 @@
 [
+    { "keys": ["ctrl+shift+s"], "command": "save_all" },
     { "keys": ["ctrl+tab"], "command": "next_view" },
     { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+    { "keys": ["ctrl+alt+z"], "command": "toggle_setting", "args": {"setting": "word_wrap"}},
+    
+    { "keys": ["alt+pagedown"], "command": "next_bookmark" },
+    { "keys": ["alt+pageup"], "command": "prev_bookmark" },
+    { "keys": ["ctrl+pagedown"], "command": "toggle_bookmark" },
+    { "keys": ["ctrl+alt+pagedown"], "command": "select_all_bookmarks" },
+    { "keys": ["ctrl+shift+alt+pagedown"], "command": "clear_bookmarks" },
 
     // Alt hotkeys
     { "keys": ["alt+v"], "args": {"action": "evaluate_math_expression"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.evaluate_math_expression"}]},
@@ -70,37 +78,14 @@
                 "key": "emmet_action_enabled.encode_decode_data_url"
             }
         ]
-    },
-    {
-        "keys": ["tab"], 
-        "command": "expand_abbreviation_by_tab", 
-        "context": [
-            {
-                "operand": "source.js, text.html", 
-                "operator": "equal", 
-                "match_all": true, 
-                "key": "selector"
-            }, 
-            {
-                "match_all": true, 
-                "key": "selection_empty"
-            },
-            {
-                "operator": "equal", 
-                "operand": false, 
-                "match_all": true, 
-                "key": "has_next_field"
-            }, 
-            {
-                "operand": false, 
-                "operator": "equal", 
-                "match_all": true, 
-                "key": "auto_complete_visible"
-            }, 
-            {
-                "match_all": true, 
-                "key": "is_abbreviation"
-            }
-        ]
     }
+    /*{ "keys": ["tab"], "command": "expand_abbreviation_by_tab", "context":
+        [
+            { "operand": "source.js", "operator": "equal", "match_all": true, "key": "selector" },
+            { "match_all": true, "key": "selection_empty" },
+            { "operator": "equal", "operand": false, "match_all": true, "key": "has_next_field" },
+            { "operand": false, "operator": "equal", "match_all": true, "key": "auto_complete_visible" },
+            { "match_all": true, "key": "is_abbreviation" }
+        ]
+    }*/
 ]
